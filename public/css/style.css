@@ -88,10 +88,12 @@ img {
 }
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
-	display: inline-block;
-	width: 865px;
-	padding: 0 47px;
+    display: block;
+    width: 865px;
+    padding: 0 47px;
+    margin: 0 auto;
 }
+
 #contents h1 {
 	color: #316e66;
 	font: 26px/30px "Times New Roman", Times, serif;

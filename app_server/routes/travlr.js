@@ -6,4 +6,7 @@ const controller = require('../controllers/travlr');
 /* GET travel page. */
 router.get('/', controller.travel);
 
+/* GET individual trip details. */
+router.get('/:tripCode', controller.travelDetails);
+
 module.exports = router;
